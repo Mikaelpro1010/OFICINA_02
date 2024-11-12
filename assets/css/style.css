@@ -1,0 +1,179 @@
+/* Estilizações relacionadas a imagem de fundo da página */
+body {
+    background-image: url("../img/fundo_dragoes.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-collapse: collapse; /* Para colapsar as bordas das células */
+}
+
+#table td{
+    border: 1px solid white;
+    padding: 8px;
+}
+
+/* Estilizações referentes ao menu de navegação entre as páginas */
+#navbar {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #910404; 
+    text-align: center;
+    padding: 14px 20px;
+}
+
+/* Estilizações para os itens contidos no Menu */
+#item1 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+#item2 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+#item3 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+#image_japao {
+    width: 100%;
+    height: 400px;
+    margin-top: 2%;
+}
+
+#titulo_01 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#paragrafo_01 {
+    color: white;
+}
+
+#titulo_02 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#titulo_03 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#paragrafo_02 {
+    color: white;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    color: gold;
+}
+
+.section2 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    color: gold;
+}
+
+.section3 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    color: gold;
+}
+
+.section4 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    color: gold;
+}
+
+.section5 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    color: gold;
+}
+
+#image_monte_fuji {
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 30%;
+}
+
+#image_dotombori {
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 30%;
+}
+
+#image_museu {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 30%;
+}
+
+#image_sushi {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 20%;
+}
+
+#image_ramen {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 20%;
+}
+
+#image_sashimi {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 20%;
+}
+
+#image_guioza {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 20%;
+}
+
+#image_manju {
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+    width: 15%;
+    height: 15%;
+}
+
+#image_turistas {
+    align-items: center;
+}
